@@ -1,0 +1,20 @@
+{
+  "name": "gpt-researcher",
+  "version": "0.1.0",
+  "description": "Autonomous deep research from Codex via MCP",
+  "homepage": "https://github.com/hsduak/DeepResearcher",
+  "repository": "https://github.com/hsduak/DeepResearcher",
+  "keywords": [
+    "mcp",
+    "codex"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "GPT Researcher",
+    "shortDescription": "Autonomous deep research from Codex via MCP",
+    "longDescription": "An autonomous agent that conducts deep research on any data using any LLM providers.",
+    "category": "Research",
+    "websiteURL": "https://github.com/hsduak/DeepResearcher"
+  },
+  "skills": "./skills/"
+}
